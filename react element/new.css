@@ -1,0 +1,71 @@
+.navitems{
+    display: flex;
+
+    margin: 0;
+
+}
+
+.navitems li{
+    list-style: none;
+
+    padding: 10px 12px;
+    font-size: 20px;
+}
+
+.imglogo{
+
+    height: 90px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.details{
+
+    padding: 0 5px;
+    display: flex;
+    justify-content:space-between;
+
+
+}
+.restimg{
+
+height:200px;
+width: 200px;
+
+
+}
+.restaurant:hover{
+    cursor: pointer;
+    border: 1px black solid;
+}   
+.details>h1{
+    padding: 0px 20px;
+}
+.restaurant{
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+
+
+    overflow: hidden;
+
+    white-space: nowrap;
+    background-color:papayawhip;
+    
+}
+.allrest{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+
+}
+.filterbtn{
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+
